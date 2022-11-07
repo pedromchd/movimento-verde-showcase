@@ -1,0 +1,14 @@
+{
+  "devDependencies": {
+    "@shrutibalasa/tailwind-grid-auto-fit": "^1.1.0",
+    "@tailwindcss/aspect-ratio": "^0.4.2",
+    "@tailwindcss/line-clamp": "^0.4.2",
+    "@tailwindcss/typography": "^0.5.8",
+    "prettier-plugin-tailwindcss": "^0.1.13",
+    "tailwindcss": "^3.2.2"
+  },
+  "scripts": {
+    "build": "npx tailwindcss -i ./css/tailwind.css -o ./css/styles.css --watch",
+    "prod": "npx tailwindcss -i ./css/tailwind.css -o ./css/styles.css --minify"
+  }
+}
