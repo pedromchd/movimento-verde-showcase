@@ -2,7 +2,6 @@
   "recommendations": [
     "bradlc.vscode-tailwindcss",
     "esbenp.prettier-vscode",
-    "pranaygp.vscode-css-peek",
     "ritwickdey.LiveServer"
   ]
 }
