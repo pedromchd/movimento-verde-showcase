@@ -8,34 +8,6 @@
     <script src="./tailwind.min.js"></script>
   </head>
   <body>
-    <header>
-      <nav>
-        <ul>
-          <li><a href="#">Link 1</a></li>
-          <li><a href="#">Link 2</a></li>
-          <li><a href="#">Link 3</a></li>
-        </ul>
-      </nav>
-    </header>
-    <main>
-      <section>
-        <h1>Article Title</h1>
-        <article>
-          <h5>Big Text</h5>
-          <p>Paragraph 1</p>
-          <p>Paragraph 2</p>
-          <p>Paragraph 3</p>
-        </article>
-      </section>
-    </main>
-    <footer>
-      <nav>
-        <ul>
-          <li><a href="#">Link 4</a></li>
-          <li><a href="#">Link 5</a></li>
-          <li><a href="#">Link 6</a></li>
-        </ul>
-      </nav>
-    </footer>
+    (header>nav>ul>(li>a[href=#]{Link $})*3)+(main>section>h1{Article Title}+article>h5{Big Text}+(p{Paragraph $})*3)+(footer>nav>ul>(li>a[href=#]{Link $@4})*3)
   </body>
 </html>
