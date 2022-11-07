@@ -8,6 +8,26 @@
     <script src="./tailwind.min.js"></script>
   </head>
   <body>
-    (header>nav>ul>(li>a[href=#]{Link $})*3)+(main>section>h1{Article Title}+article>h5{Big Text}+(p{Paragraph $})*3)+(footer>nav>ul>(li>a[href=#]{Link $@4})*3)
+    <div class="h-screen flex flex-col">
+      <header class="bg-neutral-200 p-2 grid grid-cols-5 items-center sticky top-0">
+        <img src="./img/Logo-Campus-Rio-Grande_horizontal.png" alt="" />
+        <h1 class="col-span-3 text-center text-2xl font-bold uppercase">Movimentos Sociais</h1>
+        <p class="text-right">Sociologia III - 4º Bimestre<br />Professor Matheus Ferreira</p>
+      </header>
+      <main class="flex-grow">
+        <section>
+          <h1>Article Title</h1>
+          <article>
+            <h5>Big Text</h5>
+            <p>Paragraph 1</p>
+            <p>Paragraph 2</p>
+            <p>Paragraph 3</p>
+          </article>
+        </section>
+      </main>
+      <footer class="bg-neutral-200 p-2 items-center sticky bottom-0">
+        <h6 class="text-center text-sm font-light">Copyright Artur Dutra, Diego Avila, Sofia Machado e Pedro Machado</h6>
+      </footer>
+    </div>
   </body>
 </html>
