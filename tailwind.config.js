@@ -7,7 +7,6 @@ module.exports = {
   plugins: [
     require("@shrutibalasa/tailwind-grid-auto-fit"),
     require("@tailwindcss/aspect-ratio"),
-    require("@tailwindcss/line-clamp"),
     require("@tailwindcss/typography"),
     require("prettier-plugin-tailwindcss")
   ],
