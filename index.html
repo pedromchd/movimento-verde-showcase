@@ -9,23 +9,130 @@
   </head>
   <body>
     <div class="flex h-screen flex-col">
-      <header class="sticky top-0 grid items-center gap-3 bg-neutral-200 p-2 grid-auto-fit">
-        <img src="./img/Logo-Campus-Rio-Grande_horizontal.png" alt="" class="w-64 place-self-center sm:place-self-start" />
+      <header class="sticky top-0 grid grid-cols-3 items-center gap-3 bg-stone-200 p-2">
+        <img src="./img/Logo-Campus-Rio-Grande_horizontal.png" alt="" class="w-64 place-self-start" />
         <h1 class="text-center text-2xl font-bold uppercase">Movimentos Sociais</h1>
-        <p class="text-center sm:text-right">Sociologia III - 4º Bimestre<br />Professor Matheus Ferreira</p>
+        <p class="text-right">Sociologia III - 4º Bimestre<br />Professor Matheus Ferreira</p>
       </header>
-      <main class="flex-grow grid grid-auto-fit-xl">
-        <section class="prose">
-          <h2>Article Title</h2>
-          <article>
-            <h3>Big Text</h3>
-            <p>Paragraph 1</p>
-            <p>Paragraph 2</p>
-            <p>Paragraph 3</p>
-          </article>
+      <main class="grid flex-grow gap-3 bg-stone-100 p-3">
+        <section class="rounded-xl bg-[#FFCA3A] p-2 shadow-md">
+          <div class="prose mb-2">
+            <h2 class="text-center">Conceito</h2>
+          </div>
+          <div class="grid grid-cols-2 gap-2">
+            <article class="prose row-span-2 rounded-lg bg-stone-100 p-3">
+              <h3>O que é?</h3>
+              <p>Movimentos sociais são grupos de pessoas com interesses similares que buscam lutar por uma mesma proposta.</p>
+              <p>Essa organização pode ser feita de modo pacífico e/ou ativo, abrangendo manifestações em sua grande maioria.</p>
+              <p>Podem ser vistos em sindicatos, movimentos negros, feministas e etc.</p>
+              <p>Detém suma importância para a existência da democracia, já que é um meio de discordar ou concordar das decisões do governo regente e geralmente se transformam em lutas sociais.</p>
+              <p>Quando os movimentos sociais são barrados, podemos dizer que existiu censura.</p>
+            </article>
+            <article class="prose rounded-lg bg-stone-100 p-3">
+              <h3>Direito à manifestação</h3>
+              <p>O direito de manifestação é assegurado pelo artigo 5º, XVI, da Constituição Federal de 1988. Surgiram no Brasil na época da Ditadura Militar, como opositores do governo.</p>
+            </article>
+            <article class="prose rounded-lg bg-stone-100 p-3">
+              <h3>Tipos</h3>
+              <p>Eles podem ser divididos em dois tipos:</p>
+              <h4>Conjuntural</h4>
+              <p>(curto prazo)</p>
+              <h4>Estrutural</h4>
+              <p>(longo prazo)</p>
+            </article>
+          </div>
+        </section>
+        <section class="space-y-2 rounded-xl bg-[#8AC926] p-2 shadow-md">
+          <div class="prose">
+            <h2 class="text-center">Movimento Verde</h2>
+          </div>
+          <div class="grid grid-cols-2 gap-2">
+            <article class="prose row-span-2 rounded-lg bg-stone-100 p-3">
+              <h3>História</h3>
+              <p>Também conhecido por Movimento Ecológico, Movimento Ambientalista ou Ambientalismo, o Movimento Verde é um movimento social e ecológico que busca a preservação do meio ambiente e teve sua organização após o ataque nuclear em Hiroshima e Nagasaki.</p>
+              <p>Suas questões começaram a ser defendidas na época da Revolução Industrial, devido à poluição que começava, mas foi só quando duas cidades foram tomadas por radiação que o povo enxergou que sem a natureza o ser humano não existe.</p>
+              <p>Além disso, no ápice da Revolução Industrial, várias sessões do parlamento tiveram que ser interrompidas pois os rios estavam tão poluídos que o cheiro se tornava insuportável.</p>
+              <p>Uma das origens ocultas sobre esse movimento é a exaltação da natureza e a afirmação de que os humanos são as pragas do planeta.</p>
+              <p>John Muir, ambientalista estadunidense, é um dos principais ideólogos do movimento. Ele afirma que a fauna e a flora são superiores à humanidade, pois, segundo ele, a natureza “nunca perde sua grandeza e nunca se deprava“, e o homem é sempre e em todo lugar uma “influência maligna e destruidora“.</p>
+            </article>
+            <img src="./img/459-Historico-do-Movimento-Ambientalista.webp" alt="" class="rounded-lg" />
+            <article class="prose rounded-lg bg-stone-100 p-3">
+              <h3>Conferência de Estocolmo</h3>
+              <p>A Conferência das Nações Unidas sobre o Meio Ambiente Humano, também conhecida como Conferência de Estocolmo, foi a primeira grande reunião de chefes de estado organizada pela ONU para tratar das questões relacionadas à degradação do meio ambiente, realizada em 1972 na cidade de Estocolmo.</p>
+              <p>É amplamente reconhecida como um marco nas tentativas de melhorar as relações do homem com o Meio Ambiente, e também por ter inaugurado a busca por equilíbrio entre desenvolvimento econômico e redução da degradação ambiental.</p>
+            </article>
+            <article class="prose col-span-2 rounded-lg bg-stone-100 p-3">
+              <h3>O movimento no Brasil</h3>
+              <p>Antes da Conferência de Estocolmo, o Brasil já possuía o Estatuto da Terra, o Código Florestal, a Lei da Pesca e o Estatuto de Proteção à Fauna.</p>
+              <ul>
+                <li>Paulo Nogueira Neto convenceu o presidente a criar a Secretaria Especial do Meio Ambiente (Sema), onde conseguiu introduzir a legislação e os órgãos administrativos da área ambiental no País.</li>
+                <li>O almirante Ibsen de Gusmão Câmara presidiu a Fundação Brasileira para a Conservação da Natureza. Participou do Conselho Nacional do Meio Ambiente (Conama) e foi conselheiro de inúmeras organizações ambientais. Ele também é considerado um dos fundadores do conservacionismo no Brasil.</li>
+                <li>Uma figura emblemática do movimento ambiental no Brasil é a ambientalista Maria Tereza Jorge Pádua, que foi uma das responsáveis pela criação de oito milhões de hectares de áreas protegidas na Amazônia, ainda nos anos 70.</li>
+              </ul>
+            </article>
+          </div>
+          <div class="prose">
+            <h2 class="text-center">Principais atores</h2>
+          </div>
+          <div class="grid grid-cols-3 gap-2">
+            <article class="prose rounded-lg bg-stone-100 p-3">
+              <h3>Fundação Brasileira para Conservação da Natureza</h3>
+              <p>A Fundação Brasileira para Conservação da Natureza (FBCN) é uma ONG ambientalista brasileira. Uma das primeiras organizações ambientalistas do Brasil, foi fundada em 1958 no Rio de Janeiro, através da iniciativa de funcionários públicos que em virtude de seu trabalho estavam ligados ao ambiente, como cientistas e agrônomos, mas incluía alguns industriais, jornalistas e artistas.</p>
+              <p>Tinham quatro principais objetivos, entre eles: criação e estabilização de parques nacionais, cooperação entre governos e organizações nacionais e internacionais, estudos e pesquisas sobre conservação dos recursos e divulgação do conhecimento ambientalista.</p>
+            </article>
+            <article class="prose rounded-lg bg-stone-100 p-3">
+              <h3>União Protetora da Natureza</h3>
+              <p>União Protetora da Natureza (UPAN) é considerada a primeira associação ambientalista do Brasil.</p>
+              <p>Foi fundada por Henrique Luís Roessler em 1955, no estado do Rio Grande do Sul.</p>
+              <p>A União Protetora da Natureza atuou intensamente no Vale dos Sinos, lançando ideias que mais tarde seriam concretizadas e exercendo pressão junto aos órgãos públicos.</p>
+              <p>Uma de suas maiores conquistas foi a preservação do Horto Florestal de São Leopoldo, ameaçado de venda para loteamento e uso industrial, que foi incorporado ao Parque Zoológico do Rio Grande do Sul.</p>
+            </article>
+            <article class="prose rounded-lg bg-stone-100 p-3">
+              <h3>International Union for Conservation of Nature and Natural Resources</h3>
+              <p>International Union for Conservation of Nature and Natural Resources (IUCN) é a maior e mais diversa rede ambiental, acumulando o conhecimento, recursos e alcance de nossas mais de 1.400 organizações membros e 15.000 experts.</p>
+              <p>Essa diversidade e expertise torna a UICN autoridade global no estado do mundo natural e as medidas necessárias para protegê-lo.</p>
+            </article>
+            <article class="prose rounded-lg bg-stone-100 p-3">
+              <h3>Greenpeace</h3>
+              <p>Greenpeace é uma organização ambiental que existe porque o planeta e seus ecossistemas precisam de quem os defenda.</p>
+              <p>Estão no Brasil há 30 anos denunciando e confrontando governos, empresas e projetos que incentivam a destruição da Amazônia e ameaçam o clima global.</p>
+              <p>Eles têm como missão: proteger os ecossistemas e a biodiversidade em todas as suas formas, independência política e financeira, pressionar governos e empresas em defesa do meio ambiente, promover a paz, o desarmamento global e a não-violência, enfrentar as mudanças climáticas e promover soluções sustentáveis junto à sociedade.</p>
+            </article>
+            <article class="prose rounded-lg bg-stone-100 p-3">
+              <h3>World Wide Fund for Nature</h3>
+              <p>World Wide Fund for Nature (WWF) é uma organização não-governamental brasileira e sem fins lucrativos que trabalha para mudar a atual trajetória de degradação ambiental e promover um futuro mais justo e saudável para todos, no qual sociedade e natureza vivam em harmonia.</p>
+            </article>
+            <article class="prose rounded-lg bg-stone-100 p-3">
+              <h3>Greta Thunberg</h3>
+              <p>Greta Thunberg tinha apenas 15 anos quando ganhou fama internacional após começar a faltar na escola para protestar na frente do Parlamento sueco, em 2018. Na época, a menina fazia suas próprias manifestações contra as mudanças climáticas no mundo.</p>
+              <p>Não demorou, então, até que a ativista juvenil se tornasse um forte símbolo nas causas ambientais, sendo um dos principais nomes do movimento na atualidade.</p>
+              <p>Em 2019, um vídeo da jovem discursando na Cúpula do Clima, na sede da ONU em Nova York, viralizou na internet. Na ocasião, Greta culpou líderes de 60 países por negligenciar o meio ambiente e por não promoverem políticas públicas para a redução das emissões dos gases do efeito estufa.</p>
+            </article>
+          </div>
+        </section>
+        <section class="rounded-xl bg-[#1982C4] p-2 shadow-md">
+          <div class="prose mb-2">
+            <h2 class="text-center">Referências</h2>
+          </div>
+          <div class="grid gap-2">
+            <article class="prose rounded-lg bg-stone-100 p-3">
+              <ol>
+                <li><a href="https://www.brasilparalelo.com.br/artigos/movimento-ambientalista">Brasil Paralelo</a></li>
+                <li><a href="https://marsemfim.com.br/ambientalistas-no-brasil-uma-visao-critica/#:~:text=Entre%20elas%20a%20SOS%20Mata,Akatu%20(2001)%2C%20etc."></a>Mar sem fim</li>
+                <li><a href="https://blog.portaleducacao.com.br/historico-do-movimento-ambientalista/">Portal Educação</a></li>
+                <li><a href="https://aventurasnahistoria.uol.com.br/noticias/reportagem/greta-thunberg-conheca-jovem-que-virou-simbolo-das-causas-ambientais.phtml"></a>Aventuras na história</li>
+                <li><a href="https://www.iucn.org/about-iucn"></a>IUCN</li>
+                <li><a href="https://pt.wikipedia.org/wiki/Confer%C3%AAncia_de_Estocolmo"></a>Conferência de Estocolmo</li>
+                <li><a href="https://pt.wikipedia.org/wiki/Uni%C3%A3o_Protetora_da_Natureza"></a>Wikipedia</li>
+                <li><a href="https://pt.wikipedia.org/wiki/Funda%C3%A7%C3%A3o_Brasileira_para_Conserva%C3%A7%C3%A3o_da_Natureza">Wikipedia</a></li>
+                <li><a href="https://www.greenpeace.org/brasil/"></a>Greenpeace</li>
+                <li><a href="https://aventurasnahistoria.uol.com.br/noticias/reportagem/greta-thunberg-conheca-jovem-que-virou-simbolo-das-causas-ambientais.phtml">Aventuras na hisótia</a></li>
+              </ol>
+            </article>
+          </div>
         </section>
       </main>
-      <footer class="sticky bottom-0 items-center bg-neutral-200 p-2">
+      <footer class="sticky bottom-0 items-center bg-stone-200 p-2">
         <h6 class="text-center text-sm font-light">Copyright Arthur Dutra, Diego Avila, Sofia Machado e Pedro Machado</h6>
       </footer>
     </div>
