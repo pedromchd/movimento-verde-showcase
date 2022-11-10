@@ -3,6 +3,7 @@
 @tailwind utilities;
 
 @layer components {
+  .grid,
   .prose {
     max-width: unset !important;
     min-width: unset !important;
